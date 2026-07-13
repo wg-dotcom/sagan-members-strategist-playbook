@@ -890,12 +890,12 @@
       <div class="mind-card">
         <div class="num">01</div>
         <div class="title">Grow.</div>
-        <div class="body">The member is healthy. Placements landing, credits used, tone is good. Your job now is to make them hire the <em>next</em> seat. Expansion is a Grow-mode move — never a Rescue-mode one.</div>
+        <div class="body">The member is healthy. Placements landing, hiring requests moving, tone is good. Your job now is to make them hire the <em>next</em> seat. Expansion is a Grow-mode move — never a Rescue-mode one.</div>
       </div>
       <div class="mind-card">
         <div class="num">02</div>
         <div class="title">Rescue.</div>
-        <div class="body">Something is off. A placement failed. Credits unused three months in a row. Founder went silent. You drop what you're doing and run the rescue playbook. Speed matters more than polish.</div>
+        <div class="body">Something is off. A placement failed. No hiring request opened in 60+ days. Founder went silent. You drop what you're doing and run the rescue playbook. Speed matters more than polish.</div>
       </div>
       <div class="mind-card">
         <div class="num">03</div>
@@ -1007,17 +1007,17 @@
       <div class="mind-card" style="border-left-color:#2f8f5c;">
         <div class="num" style="color:#2f8f5c;">🟢</div>
         <div class="title">Green.</div>
-        <div class="body">Credits used every month. At least one placement in the last 90 days. Founder replies inside 48h. Community activity if Passport included. Keep running Grow mode.</div>
+        <div class="body">Active hiring request in play. At least one placement in the last 90 days. Founder replies inside 48h. Community activity if Passport included. Keep running Grow mode.</div>
       </div>
       <div class="mind-card" style="border-left-color:#c8941e;">
         <div class="num" style="color:#c8941e;">🟡</div>
         <div class="title">Yellow.</div>
-        <div class="body">One credit unused this month. Reply time slipped past 5 days. No hiring request open. Community went quiet. Not on fire yet — but on your radar. Call this month.</div>
+        <div class="body">Reply time slipped past 5 days. No hiring request open in 30+ days. Community went quiet. Not on fire yet — but on your radar. Call this month.</div>
       </div>
       <div class="mind-card" style="border-left-color:#a83232;">
         <div class="num" style="color:#a83232;">🔴</div>
         <div class="title">Red.</div>
-        <div class="body">Two months of unused credits. Placement failed and no replacement started. Founder ghosted for two weeks. Slack DM to Jesus / Anna, then run the rescue playbook that day.</div>
+        <div class="body">60+ days with no hiring request open. Placement failed and no replacement started. Founder ghosted for two weeks. Slack DM to Jesus / Anna, then run the rescue playbook that day.</div>
       </div>
     </div>
   </section>
@@ -1039,7 +1039,7 @@
       <div class="quarter">
         <div class="qtag">Move 02</div>
         <div class="qtitle">Fix the visible thing first.</div>
-        <div class="qbody">If a placement failed, start the replacement inside 24 hours with a specific candidate name. If credits are unused, propose a role. Give them momentum before you propose strategy.</div>
+        <div class="qbody">If a placement failed, start the replacement inside 24 hours with a specific candidate name. If no hiring request is open, propose a role. Give them momentum before you propose strategy.</div>
         <div class="qsuccess"><span class="lbl">Success</span>Something moved forward within a week. Not "we'll get back to you."</div>
       </div>
       <div class="quarter">
@@ -1081,7 +1081,7 @@
         <div class="qtag">Moment 03</div>
         <div class="qtitle">At the QBR.</div>
         <div class="qbody">Once you've walked them through the numbers, ask: "if we were building this again from scratch, what would you add?" Then propose the shape.</div>
-        <div class="qsuccess"><span class="lbl">Pitch</span>Bigger plan, more credits, or a Passport add-on if not already in.</div>
+        <div class="qsuccess"><span class="lbl">Pitch</span>Upgraded plan, more hires per month, or a Passport add-on if not already in.</div>
       </div>
       <div class="quarter">
         <div class="qtag">Moment 04</div>
@@ -1130,7 +1130,7 @@
         <tr>
           <td class="tool">You</td>
           <td class="use">Ops / Billing</td>
-          <td class="use">Plan changes, upgrades, credit disputes, payment issues</td>
+          <td class="use">Plan changes, upgrades, billing disputes, payment issues</td>
           <td class="use">Ticket to Ops with the change request and the member's confirmation in writing</td>
         </tr>
         <tr>
@@ -1158,12 +1158,12 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td class="tool">Airtable — Passport OS</td><td class="use">Source of truth for every account. Plans, credits, hiring requests, notes, health score. If it's not in Airtable, it didn't happen.</td></tr>
+        <tr><td class="tool">Airtable — Passport OS</td><td class="use">Source of truth for every account. Plans, hiring requests, notes, health score. If it's not in Airtable, it didn't happen.</td></tr>
         <tr><td class="tool">Airtable — Sourcing base</td><td class="use">Read-only for you. Reference candidates and shortlists your TAs are running. Never write here.</td></tr>
         <tr><td class="tool">Slack — Member DMs + canvases</td><td class="use">Every account has a canvas: current plan, open reqs, last 3 touches, next action. Update after every meaningful interaction.</td></tr>
         <tr><td class="tool">Granola</td><td class="use">Every call gets recorded and transcribed. Notes flow to Airtable. Never a call without Granola running.</td></tr>
         <tr><td class="tool">Front</td><td class="use">Shared inbox for member emails. Every email tagged by account. Reply in 24h, always.</td></tr>
-        <tr><td class="tool">Dashboards (Looker Studio / Recruiting Command Center)</td><td class="use">Weekly numbers for your book. Health, credits used, expansion pipeline, replacements in flight.</td></tr>
+        <tr><td class="tool">Dashboards (Looker Studio / Recruiting Command Center)</td><td class="use">Weekly numbers for your book. Health, hires shipped, expansion pipeline, replacements in flight.</td></tr>
       </tbody>
     </table>
   </section>
@@ -1183,8 +1183,8 @@
       </div>
       <div class="benefit">
         <div class="icon">02</div>
-        <div class="b-title">Credit utilization</div>
-        <div class="b-desc">% of monthly hiring credits used by your book. Under 60% is a red flag for expansion and renewal risk.</div>
+        <div class="b-title">Hire velocity</div>
+        <div class="b-desc">Hires shipped per month across your book vs plan capacity. A member sitting idle 30+ days is an expansion and renewal risk.</div>
       </div>
       <div class="benefit">
         <div class="icon">03</div>
